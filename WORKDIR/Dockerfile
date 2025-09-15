@@ -1,4 +1,4 @@
-FROM alamalinux:9
+FROM almalinux:9
 RUN dnf install nginx -y
 RUN mkdir /tmp/workdir-demo
 RUN cd /tmp/workdir-demo
